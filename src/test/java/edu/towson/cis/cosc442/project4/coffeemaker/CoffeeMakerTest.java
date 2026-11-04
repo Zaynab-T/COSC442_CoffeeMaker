@@ -161,10 +161,10 @@ public class CoffeeMakerTest {
 
     @Test void makeCoffee_success() { 
 
-        cm.addRecipe(r1);
-        cm.makeCoffee(r1, 50);
+        cm.addRecipe(r2);
+        cm.makeCoffee(r2, 75);
 
-        assertInventory(12, 14, 14, 15);
+        assertInventory(12, 14, 14, 13);
      }
 
     @Test void makeCoffee_underpay() { 
