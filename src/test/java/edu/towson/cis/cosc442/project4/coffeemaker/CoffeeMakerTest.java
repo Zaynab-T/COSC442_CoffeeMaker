@@ -9,6 +9,10 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import org.junit.jupiter.api.Disabled;
+
+@Disabled("Temporarily disabled to demo the PIT quality gate")
+
 public class CoffeeMakerTest {
     
 
